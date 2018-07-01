@@ -36,7 +36,7 @@ void Game::Gamerun()
         system("cls");
         cout << "Player ";
         cout << turn;
-        cout << " Turn" << endl;
+        cout << " Turn: Enter from 1 to 9!" << endl;
 
         if(isFull() == false)
         {
